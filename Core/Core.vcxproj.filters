@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Action">
+      <UniqueIdentifier>{28c15d2d-9d42-4d2e-ad5f-c97432cd2606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action\Animation">
+      <UniqueIdentifier>{a43a8243-9b04-4f2f-99ca-c83d4e3606a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action\Audio">
+      <UniqueIdentifier>{8688b921-9baf-450b-a764-340032742d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action\Video">
+      <UniqueIdentifier>{b60fc34b-3777-45a6-ad43-adf3bc52d42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{00d4b311-5ad5-406b-a396-0f437c106893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Model">
+      <UniqueIdentifier>{a90a5307-49e2-4a81-8bf9-6abd835b25df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Subscene">
+      <UniqueIdentifier>{4b9895a1-cfa6-41c1-b194-82a691d7796b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{caa1ff3a-52d2-4a39-9c4d-679e72d9a64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{f89efc46-1c30-4fe8-81d2-b46256917b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File">
+      <UniqueIdentifier>{bf618286-dbff-4c78-9510-66e4a55ac191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{7b369673-8b0b-4279-84bd-14e743379953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libxml2-2.7.8">
+      <UniqueIdentifier>{32fd9887-fce1-42c3-844c-88e87bd1d174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libxml2-2.7.8\config">
+      <UniqueIdentifier>{0debd918-5031-4823-969f-cfd07aa79836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Document">
+      <UniqueIdentifier>{229f0537-73f9-44bf-8d20-ec407a37ec5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Document\Magazine">
+      <UniqueIdentifier>{47517039-7b73-4f83-904a-39d0ab931808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Document\Catalog">
+      <UniqueIdentifier>{91a0cca6-eb18-4e47-b590-1aebda60ab55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppObjects">
+      <UniqueIdentifier>{d1829aa1-42b0-47e1-bee7-1c5c857fc81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script">
+      <UniqueIdentifier>{f896b289-7478-4331-bc59-a9142aa3a23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated Files">
+      <UniqueIdentifier>{6d0d05ba-8f61-4945-b75f-fc4661c77016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated Files\Release">
+      <UniqueIdentifier>{06c19864-6a2f-43e5-b809-2abf278197c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated Files\Debug">
+      <UniqueIdentifier>{69b7b33c-938a-41f0-9333-60b2bfc521a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ImageDecode">
+      <UniqueIdentifier>{40cd41da-95bf-42cb-b05f-c2078fa77970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event\freetype-2.4.4">
+      <UniqueIdentifier>{475dfcb4-6087-4a68-9eab-7bbe0c2e4bac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxShaders.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUtils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingPage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageFlip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageFlipOrig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSupport.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PressEventData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLHttpRequest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastMessageAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageChangerSetImageAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="LaunchAppAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPlayAnimationAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayVideoAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangerSceneSetAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangerShowSceneAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCameraAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SetOpacityAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SetVisibilityAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowAllAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowOnlyAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="StopVideoAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSceneResetPositionAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitUntilAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ResumeAnimationAction.h">
+      <Filter>Source Files\Action\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPauseAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioResumeAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioStopAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ResumeAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRecordAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="StopAllAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="StopRecordAudioAction.h">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayVideoAction.h">
+      <Filter>Source Files\Action\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoStopVideoAction.h">
+      <Filter>Source Files\Action\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Attrib.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DragVelocityHandler.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementMapping.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageChanger.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageGrid.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LightObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFile.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Orientation.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Panorama.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Root.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChanger.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneContainer.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceType.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TempRenderObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBed.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFont.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnTable.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendShape.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPart.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelKeyFrame.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelKeyFrameChannel.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialPartitioning.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalSubScene.h">
+      <Filter>Source Files\Scene\Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneReferencer.h">
+      <Filter>Source Files\Scene\Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="SubScene.h">
+      <Filter>Source Files\Scene\Subscene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationChannel.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolator.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPausedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayTimeEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioResumedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioStoppedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleClickEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageGridImageClickedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyReleaseEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PageChangedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PageChangingEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PressEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiveMessageEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ReleaseEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePreStartEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStartEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStopEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoObjectPlayedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoObjectStoppedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayTimeEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoStoppedEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Source Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Traits.h">
+      <Filter>Source Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Writer.h">
+      <Filter>Source Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MathStuff.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixStack.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libxml2-2.7.8\include\libxml\xmlversion.h">
+      <Filter>Source Files\libxml2-2.7.8\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Document.h">
+      <Filter>Source Files\Document</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentTemplate.h">
+      <Filter>Source Files\Document</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangerDocumentTemplate.h">
+      <Filter>Source Files\Document</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleSceneDocumentTemplate.h">
+      <Filter>Source Files\Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MagazineArticle.h">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClInclude>
+    <ClInclude Include="MagazineDocumentTemplate.h">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClInclude>
+    <ClInclude Include="MagazinePage.h">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClInclude>
+    <ClInclude Include="CatalogDocumentTemplate.h">
+      <Filter>Source Files\Document\Catalog</Filter>
+    </ClInclude>
+    <ClInclude Include="AppImage.h">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppObject.h">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWebContent.h">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEventListener.h">
+      <Filter>Source Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptProcessor.h">
+      <Filter>Source Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBoxObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnimationAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StopActionsAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MaskObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFeatures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnimation.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnimationAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoObject.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoSaveEvent.h">
+      <Filter>Source Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoTakePictureEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoCameraOnEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoCameraOffEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnimationPauseAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnimationResumeAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="VibrateAction.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Text_2.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHandlerOld.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFlipOrig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLHttpRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastMessageAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecuteScriptObjectAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageChangerSetImageAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageChangerShowImageAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSetFileAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="LaunchAppAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPlayAnimationAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUrlAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFlip.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayVideoAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangerSceneSetAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangerShowSceneAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCameraAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SetOpacityAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SetVisibilityAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowAllAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowOnlyAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="StopVideoAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSceneResetPositionAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitUntilAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayAnimationAction.cpp">
+      <Filter>Source Files\Action\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetAnimationAction.cpp">
+      <Filter>Source Files\Action\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ResumeAnimationAction.cpp">
+      <Filter>Source Files\Action\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="StopAnimationAction.cpp">
+      <Filter>Source Files\Action\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPauseAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioResumeAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioStopAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ResumeAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="StartRecordAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="StopAllAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="StopRecordAudioAction.cpp">
+      <Filter>Source Files\Action\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayVideoAction.cpp">
+      <Filter>Source Files\Action\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoStopVideoAction.cpp">
+      <Filter>Source Files\Action\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Attrib.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DragVelocityHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementMapping.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageChanger.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGrid.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LightObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelFile.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Panorama.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Root.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChanger.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBed.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFont.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTable.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnTable.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendShape.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPart.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialPartitioning.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Scene\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalSubScene.cpp">
+      <Filter>Source Files\Scene\Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="SubScene.cpp">
+      <Filter>Source Files\Scene\Subscene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationChannel.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrame.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayTimeEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGridImageClickedEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadedEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PageChangedEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PageChangingEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiveMessageEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayTimeEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoStoppedEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Writer.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MathStuff.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixStack.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\c14n.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\catalog.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\chvalid.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\debugXML.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\dict.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\DOCBparser.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\encoding.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\entities.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\error.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\globals.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\hash.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\HTMLparser.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\HTMLtree.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\legacy.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\list.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\nanoftp.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\nanohttp.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\parser.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\parserInternals.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\pattern.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\relaxng.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\SAX.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\SAX2.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\schematron.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\threads.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\tree.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\uri.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\valid.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xinclude.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xlink.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlIO.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlmemory.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlmodule.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlreader.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlregexp.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlsave.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlschemas.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlschemastypes.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlstring.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlunicode.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xmlwriter.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xpath.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libxml2-2.7.8\xpointer.c">
+      <Filter>Source Files\libxml2-2.7.8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\autofit.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\bdf.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\cff.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftbase.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftbbox.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftbitmap.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftcache.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftdebug.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftfstype.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftgasp.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftglyph.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftgxval.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftgzip.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftinit.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftlcdfil.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftlzw.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftmm.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftotval.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftpatent.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftpfr.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftstroke.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftsynth.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftsystem.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\fttype1.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftwinfnt.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\ftxf86.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\pcf.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\pfr.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\psaux.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\pshinter.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\psmodule.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\raster.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\sfnt.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\smooth.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\truetype.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\type1.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\type1cid.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\type42.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\freetype-2.4.4\winfnt.c">
+      <Filter>Source Files\Event\freetype-2.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Document.cpp">
+      <Filter>Source Files\Document</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentTemplate.cpp">
+      <Filter>Source Files\Document</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangerDocumentTemplate.cpp">
+      <Filter>Source Files\Document</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleSceneDocumentTemplate.cpp">
+      <Filter>Source Files\Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MagazineArticle.cpp">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClCompile>
+    <ClCompile Include="MagazineDocumentTemplate.cpp">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClCompile>
+    <ClCompile Include="MagazinePage.cpp">
+      <Filter>Source Files\Document\Magazine</Filter>
+    </ClCompile>
+    <ClCompile Include="CatalogDocumentTemplate.cpp">
+      <Filter>Source Files\Document\Catalog</Filter>
+    </ClCompile>
+    <ClCompile Include="AppImage.cpp">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObject.cpp">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWebContent.cpp">
+      <Filter>Source Files\AppObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEventListener.cpp">
+      <Filter>Source Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptProcessor.cpp">
+      <Filter>Source Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBoxObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimation.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimationAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJPGDecoder.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibPNGDecoder.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadImage.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="etcdec.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="etcpack.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="PVRTDecompress.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="PVRTResourceFile.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="PVRTTexture.cpp">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StopActionsAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4.c">
+      <Filter>Source Files\ImageDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnimationAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoObject.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnimation.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimationPauseAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimationResumeAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="VibrateAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Text_2.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHandlerOld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

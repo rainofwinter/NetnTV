@@ -1,0 +1,29 @@
+QWidget
+{
+	border: 1px solid rgb(200, 200, 200);
+}
+
+QTabBar::tab
+{
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+					stop:0 rgb(190, 190, 190), stop:1 rgb(170, 170, 170));
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px none;
+	border-bottom: none;
+	height: 22px;
+	font-family: Arial;
+	text-align: left;
+	color: rgb(55, 55, 55);
+}
+
+QTabBar::tab:selected
+{
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+					stop:0 rgb(240, 240, 240), stop:1 rgb(200, 200, 200));
+}
+
+QTabBar::close-button
+{
+	image: url(:/data/Resources/docTabClose.png);
+}

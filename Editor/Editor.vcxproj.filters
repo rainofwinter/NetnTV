@@ -1,0 +1,2101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{3349bedd-03a8-4d62-bc2d-636d3b5dc5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Property">
+      <UniqueIdentifier>{08d3ea58-90fb-4369-96eb-60fe50888b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Tool">
+      <UniqueIdentifier>{b3d1bee8-80e4-476e-9446-8caeb89d5218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Tool\Gizmo">
+      <UniqueIdentifier>{c329d6f0-6f3d-4660-8445-f99642b6c08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Animation">
+      <UniqueIdentifier>{f08981d3-4763-42b3-8e13-ec9924e00e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Dialog Boxes">
+      <UniqueIdentifier>{8a7f08dc-c3ec-418d-89b0-6e81cadcb907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\EventAction">
+      <UniqueIdentifier>{512e55a6-187c-4b67-9dbe-c2173f3a0b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\GL">
+      <UniqueIdentifier>{24985310-55eb-4f58-ad9d-3c9f74cde96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorScene">
+      <UniqueIdentifier>{988421d8-992d-4f71-9580-c19cf96627e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandHistory">
+      <UniqueIdentifier>{53f35710-fceb-42ba-bb94-4c6333d65a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorAction">
+      <UniqueIdentifier>{4dcc8dfc-eaa7-4e0e-927e-eb84c268802d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{3b0f5d14-adb9-42e5-b958-c11ca38dd12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorEvent">
+      <UniqueIdentifier>{4d7002e6-c6ff-4ff2-a1e0-e38cd8cf7182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FontName">
+      <UniqueIdentifier>{31643e2c-6b1c-4bbb-8cc0-7cf5a47f33f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorDocumentTemplate">
+      <UniqueIdentifier>{33a0b438-9bdb-4692-8562-bb7ab08a83e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minizip1.1">
+      <UniqueIdentifier>{4a1ccdac-240d-4104-9950-e236ba971db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{eebe55e2-459a-45d5-b9fc-38cbc7b13838}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{60324757-a88e-4139-a8a4-9be23921ce07}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{bd4bd78e-8d7e-460c-b3a0-93a4344d10e0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Activation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGlobal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipPublish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTargetListPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjectListPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericList.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ListEditorWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectListPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneListPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectListPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Source Files\UI\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyPage.cpp">
+      <Filter>Source Files\UI\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyPane.cpp">
+      <Filter>Source Files\UI\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="AppObjectTransformTool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectComponentTool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditTool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTableTool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformTool.cpp">
+      <Filter>Source Files\UI\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="PivotGizmo.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateGizmo.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleGizmo.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformGizmo.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateGizmo.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoRegionTool.cpp">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationListPane.cpp">
+      <Filter>Source Files\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationPane.cpp">
+      <Filter>Source Files\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelListPane.cpp">
+      <Filter>Source Files\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFramePane.cpp">
+      <Filter>Source Files\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeLinePane.cpp">
+      <Filter>Source Files\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationPropertiesDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWebContentHtmlDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArticleManagerDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="CatalogDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="DocumentPropertiesDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="GenThumbsDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGridDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertAdDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationPanel.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiChoiceQuestionDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewAppObjectDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewChannelDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewObjectDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProjectDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewSubSceneDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTrackingUrlsDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferencesDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="PublishDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="PublishingDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangerDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePropertiesDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleSceneDocumentDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextbookUpload.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListPane.cpp">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EventActionPane.cpp">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListPane.cpp">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWidget.cpp">
+      <Filter>Source Files\UI\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAppImage.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAppObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAudioObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCameraObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorDocument.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGroup.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImage.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageChanger.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageGrid.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorLightObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorModel.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMultiChoiceQuestion.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPanorama.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorRectangle.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorRoot.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChanger.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSubScene.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorText.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTextTable.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTurnTable.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorVideoObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\CommandHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHistory.cpp">
+      <Filter>Source Files\CommandHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAnimateAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAppWebContent.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorBroadcastMessageAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorEffectAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageChangerSetImageAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageChangerShowImageAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageSetFileAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorLaunchAppAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorOpenUrlAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPlayAudioAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPlayVideoAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorResetAnimationAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorResumeAnimationAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChangeAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChangerSceneSetAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChangerShowSceneAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSetCameraAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSetOpacityAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSetVisibilityAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorShowAllAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorShowOnlyAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorStopAnimationAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorWaitUntilAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="UriCodec.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAudioPlayTimeEvent.cpp">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageGridImageClickedEvent.cpp">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorReceiveMessageEvent.cpp">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChangerPageChangedEvent.cpp">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorVideoPlayTimeEvent.cpp">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFontFile.cpp">
+      <Filter>Source Files\FontName</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNameValue.cpp">
+      <Filter>Source Files\FontName</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCatalogDocumentTemplate.cpp">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMagazineDocumentTemplate.cpp">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSceneChangerDocumentTemplate.cpp">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSingleSceneDocumentTemplate.cpp">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip1.1\ioapi.c">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip1.1\mztools.c">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip1.1\unzip.c">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="minizip1.1\zip.c">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_test.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ActionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ActionListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ActionTargetListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimationListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimationPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppObjectListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppObjectTransformTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppWebContentHtmlDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ArticleManagerDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CatalogDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ChannelListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Command.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CommandHistory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DocumentPropertiesDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorAppWebContent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorDocument.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorImageChanger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorImageGrid.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorMultiChoiceQuestion.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorRoot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorSceneChanger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorSubScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorText.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorTextTable.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorVideoObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EventDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EventListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GenericList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GenThumbsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GLWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageGridDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InsertAdDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InspectComponentTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KeyFramePane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ListEditorWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelAnimationPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MultiChoiceQuestionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewAppObjectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewChannelDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewObjectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewProjectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewSubSceneDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ObjectListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PageTrackingUrlsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PreferencesDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Property.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyPage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PublishDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PublishingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SceneChangerDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SceneListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SceneObjectListPane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScenePropertiesDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SerialDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SingleSceneDocumentDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TextbookUpload.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TextDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TextEditTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TextTableTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimeLinePane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Tool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransformTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoRegionTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ActionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ActionListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ActionTargetListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimationListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimationPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppObjectListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppObjectTransformTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppWebContentHtmlDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ArticleManagerDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CatalogDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ChannelListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Command.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommandHistory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DocumentPropertiesDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorAppWebContent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorDocument.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorImageChanger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorImageGrid.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorMultiChoiceQuestion.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorRoot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorSceneChanger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorSubScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorText.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorTextTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorVideoObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EventDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EventListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GenericList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GenThumbsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GLWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageGridDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InsertAdDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InspectComponentTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KeyFramePane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ListEditorWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelAnimationPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MultiChoiceQuestionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewAppObjectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewChannelDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewObjectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewProjectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewSubSceneDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ObjectListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PageTrackingUrlsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PreferencesDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Property.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyPage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PublishDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PublishingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SceneChangerDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SceneListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SceneObjectListPane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScenePropertiesDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SerialDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SingleSceneDocumentDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TextbookUpload.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TextDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TextEditTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TextTableTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimeLinePane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Tool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransformTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoRegionTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorBoundingBoxObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorBoundingBoxObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorBoundingBoxObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorBoundingBoxObject.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMap.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorMap.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorMap.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorMap.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAudioPlayAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorVideoPlayAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorImageAnimation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorImageAnimation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorImageAnimation.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageAnimation.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTextEditObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UrlDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UrlDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UrlDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_UrlDlg.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMaskObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PaneMenuIconStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PaneMenuIconStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_PaneMenuIconStyle.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTAnimation.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorTAnimation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorTAnimation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorTAnimation.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorButtonObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonObjectDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ButtonObjectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ButtonObjectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ButtonObjectDlg.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorPhotoObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorPhotoObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorPhotoObject.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPhotoObject.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoginDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoginDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_LoginDlg.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePasswordDlg.cpp">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ChangePasswordDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ChangePasswordDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ChangePasswordDlg.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="PdfToTextTemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorShareAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorShareAction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorShareAction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorShareAction.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageAnimationPauseAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorImageAnimationResumeAction.cpp">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorText_2.cpp">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorText_2.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorText_2.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EditorText_2.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGlobal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipPublish.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneButton.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneLabel.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NullGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationPropertiesDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventActionPane.h">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAppImage.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAppObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAudioObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCameraObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGroup.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImage.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorLightObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPanorama.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorRectangle.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTurnTable.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAnimateAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorBroadcastMessageAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEffectAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageChangerSetImageAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageChangerShowImageAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageSetFileAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorLaunchAppAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorOpenUrlAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPlayAudioAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPlayVideoAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorResetAnimationAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorResumeAnimationAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSceneChangeAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSceneChangerSceneSetAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSceneChangerShowSceneAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSetCameraAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSetOpacityAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSetVisibilityAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorShowAllAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorShowOnlyAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorStopAnimationAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorWaitUntilAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAudioPlayTimeEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageGridImageClickedEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorReceiveMessageEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSceneChangerPageChangedEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorVideoPlayTimeEvent.h">
+      <Filter>Source Files\EditorEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFontFile.h">
+      <Filter>Source Files\FontName</Filter>
+    </ClInclude>
+    <ClInclude Include="GetNameValue.h">
+      <Filter>Source Files\FontName</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCatalogDocumentTemplate.h">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDocumentTemplate.h">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMagazineDocumentTemplate.h">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSceneChangerDocumentTemplate.h">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSingleSceneDocumentTemplate.h">
+      <Filter>Source Files\EditorDocumentTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip1.1\crypt.h">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip1.1\ioapi.h">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip1.1\mztools.h">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip1.1\unzip.h">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="minizip1.1\zip.h">
+      <Filter>Source Files\minizip1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_actionDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AnimationPropertiesDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AppWebContentHtmlDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_articleManagerDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_bookPropertiesDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_catalogDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_documentPropertiesDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_eventDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_genThumbsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_imageGridDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InsertAdDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InspectComponentWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_main.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modelAnimationPanel.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MultiChoiceQuestionDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newAppObjectDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newChannelDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newObjectDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newProjectDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newSubSceneDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pageTrackingUrlsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_preferencesDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_publishDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_publishingDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sceneChangerDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_scenePropertiesDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_serialDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_singleSceneDocumentDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TextbookDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_textDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TextEditWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAudioPlayAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorVideoPlayAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTextEditObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_urlDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMaskObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_buttonImage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorButtonObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LoginDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_changePasswordDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PdfToTextTemp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageAnimationPauseAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorImageAnimationResumeAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Resources\activeDocTabBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\activeDocTabEdgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\activeDocTabEdgeRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\activeTabBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\activeTabEdgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\activeTabEdgeRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\appObjectTransform.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\aspect.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\aspectInactive.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\bg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\bone.stm">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\bookmark.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\bookMarkActive.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\bookMarkInactive.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\bookmarks.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\bookmarksTitle.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\bookmarksTitle.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\bt_thumbnail.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\btnClose.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\btnMax.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\btnMin.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\btnRestore.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\camera.stm">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\check.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="colorFragShader.glsl">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\coverButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\cursor.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\directionalLight.stm">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\docTabClose.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\EditRedo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\EditUndo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\FileNew.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\FileOpen.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\FileSave.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="fragShader.glsl">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\help page_h.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\help page_v.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\helpButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\home.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\homeButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveDocTabBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveDocTabEdgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveDocTabEdgeRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveTabBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveTabEdgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\inactiveTabEdgeRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\joint.stm">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\layoutButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\lock.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\lockOff.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\lockOn.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\menuBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuEdit.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuExtra.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuFile.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuHelp.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuTool.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuView.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\menuWindow.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\multiChoice.js">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehAd.jpg">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehAd.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd1.jpg">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd1.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd2.jpg">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd2.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd3.jpg">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehChangingAd3.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\OllehLogo.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\paneLabelBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\paneLabelEdgeLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\paneLabelEdgeRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\pivot.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\Preview.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\refresh.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\repeatOff.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\repeatOn.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\rotate.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\scale.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scroll_bar.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarLeft.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarLeftButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarRight.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarRightButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\scrollBarThumb.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\splash.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\tabBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="textFragShader.glsl">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\timeLineBarBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\timeLineLabelBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\title.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\title.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\toContents.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\toolBarBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\toolBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\topMenuBg.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\topMenuCoverButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\topMenuHomeButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\articleManager\topMenuLayoutButton.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\translate.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\uncheck.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="vertShader.glsl">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_photobox.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_thumbnail_bottom.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_thumbnail_box.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_thumbnail_top.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_width_thumbnail_bottom.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_width_thumbnail_box.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\catalog\viewer_width_thumbnail_top.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\visible.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\visibleOff.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\visibleOn.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="EditorSubScene.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ActionTargetListPane.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppObjectListPane.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GenericList.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ListEditorWidget.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ObjectListPane.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SceneListPane.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SceneObjectListPane.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Property.h">
+      <Filter>Source Files\UI\Property</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PropertyPage.h">
+      <Filter>Source Files\UI\Property</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PropertyPane.h">
+      <Filter>Source Files\UI\Property</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppObjectTransformTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InspectComponentTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextEditTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextTableTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Tool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransformTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoRegionTool.h">
+      <Filter>Source Files\UI\Tool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransformGizmo.h">
+      <Filter>Source Files\UI\Tool\Gizmo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnimationListPane.h">
+      <Filter>Source Files\UI\Animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnimationPane.h">
+      <Filter>Source Files\UI\Animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ChannelListPane.h">
+      <Filter>Source Files\UI\Animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyFramePane.h">
+      <Filter>Source Files\UI\Animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TimeLinePane.h">
+      <Filter>Source Files\UI\Animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ActionDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppWebContentHtmlDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ArticleManagerDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CatalogDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DocumentPropertiesDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GenThumbsDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageGridDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InsertAdDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ModelAnimationPanel.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MultiChoiceQuestionDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NewAppObjectDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NewChannelDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NewObjectDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NewProjectDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NewSubSceneDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PageTrackingUrlsDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PreferencesDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PublishDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PublishingDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SceneChangerDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScenePropertiesDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SerialDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SingleSceneDocumentDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextbookUpload.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ActionListPane.h">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventListPane.h">
+      <Filter>Source Files\UI\EventAction</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GLWidget.h">
+      <Filter>Source Files\UI\GL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorDocument.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorImageChanger.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorImageGrid.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorModel.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorMultiChoiceQuestion.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorRoot.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorScene.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorSceneChanger.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorText.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorTextTable.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorVideoObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Command.h">
+      <Filter>Source Files\CommandHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandHistory.h">
+      <Filter>Source Files\CommandHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorAppWebContent.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="actionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnimationPropertiesDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppWebContentHtmlDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="articleManagerDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bookPropertiesDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="catalogDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="documentPropertiesDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="eventDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="genThumbsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imageGridDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InsertAdDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InspectComponentWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modelAnimationPanel.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MultiChoiceQuestionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newAppObjectDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newChannelDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newObjectDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newProjectDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newSubSceneDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pageTrackingUrlsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="preferencesDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="publishDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="publishingDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneChangerDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scenePropertiesDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serialDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="singleSceneDocumentDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextbookDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="textDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TextEditWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorBoundingBoxObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorMap.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorImageAnimation.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="urlDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UrlDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PaneMenuIconStyle.h">
+      <Filter>Source Files\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="buttonImage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorPhotoObject.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="changePasswordDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorTAnimation.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ButtonObjectDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ChangePasswordDlg.h">
+      <Filter>Source Files\UI\Dialog Boxes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorShareAction.h">
+      <Filter>Source Files\EditorAction</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditorText_2.h">
+      <Filter>Source Files\EditorScene</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
